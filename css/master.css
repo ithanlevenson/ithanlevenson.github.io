@@ -13,7 +13,14 @@
 
 h1{
   text-align: center;
+  display:block;
+  width: 100%;
+  padding-top: 50px;
+  padding: 40px 0;
+  margin: 0;
   font-family: 'Abril Fatface', cursive;
+  float: left;
+  font-size: 58px;
 }
 
 body{
@@ -26,14 +33,10 @@ section{
   padding: 5px;
 }
 
-nav{
-  display:inline-block;
-  float: left;
-}
-
 #pic{
   margin-left: 80px;
   border: 5px solid black;
+  margin-bottom: 20px;
 }
 
 #contact{
@@ -43,6 +46,8 @@ nav{
   margin-left: 100px; */
   float: right;
   border:0;
+  margin-right: 100px;
+  text-align: right;
 }
 
 #contact h2{
@@ -75,4 +80,41 @@ a:visited{
 
 a:active{
   color: white;
+}
+
+nav{
+  color:white;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: fixed;
+    position: 0;
+    width: 100%;
+    display:grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: 50px;
+    padding-bottom: 20px;
+}
+
+nav li {
+    float: left;
+
+}
+
+nav li a {
+    display: block;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    border: 2px solid black;
+    margin: 0 2px;
+}
+
+nav li a:hover {
+    background-color: #111;
+    color:white;
 }
