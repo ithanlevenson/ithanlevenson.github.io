@@ -91,7 +91,7 @@ nav ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    display: fixed;
+    /* display: fixed; */
     position: 0;
     width: 100%;
     display:grid;
