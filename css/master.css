@@ -26,6 +26,7 @@
   margin: 0;
   position: absolute;
   top: 20%;
+  margin-bottom: 105px;
 }
 
 #grid3{
@@ -35,10 +36,11 @@
   grid-template-columns: 1fr 2fr;
 }
 
-
 body{
   background-color: #999;
   font-family: 'Arimo', sans-serif;
+  margin-left: 0;
+  padding-bottom: 100px;
 }
 
 
@@ -69,8 +71,6 @@ nav li{
   display: inline-block;
   margin-right: 30px;
   padding: 10px;
-
-
 }
 
 li a{
@@ -84,7 +84,7 @@ li a{
 }
 
 li a:hover{
-  color: white;
+  background-color: white;
 }
 
 li a:active{
@@ -98,9 +98,12 @@ img{
 }
 
 footer{
-  position: absolute;
+  position: fixed;
   bottom: 0;
-  width: 960px;
+  width: 970px;
   background-color: #444;
   color: white;
+  text-align: center;
+  margin: 0 auto;
+
 }
