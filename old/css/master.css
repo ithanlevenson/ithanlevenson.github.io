@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Open+Sans');
+
+#wrapper{
+  width: 960px;
+  margin: 0 auto;
+}
+
+#grid{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap:20px;
+}
+
+h1{
+  text-align: center;
+  display:block;
+  width: 100%;
+  padding-top: 50px;
+  padding: 40px 0;
+  margin: 0;
+  font-family: 'Abril Fatface', cursive;
+  float: left;
+  font-size: 58px;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  background-color: #999;
+}
+
+section{
+  border: 2px solid black;
+  padding: 5px;
+}
+
+#pic{
+  margin-left: 80px;
+  border: 5px solid black;
+  margin-bottom: 20px;
+}
+
+#contact{
+  display: inline-block;
+  /* top:0;
+  left:0;
+  margin-left: 100px; */
+  float: right;
+  border:0;
+  margin-right: 100px;
+  text-align: right;
+}
+
+#contact h2{
+  margin-top:0;
+}
+
+#education p{
+  text-align:center;
+}
+
+h2{
+  text-align: center;
+}
+
+a{
+  color: darkblue;
+}
+
+a:hover{
+  color: red;
+}
+
+a:default{
+  color: green;
+}
+
+a:visited{
+  color: #333;
+}
+
+a:active{
+  color: white;
+}
+
+nav{
+  color:white;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* display: fixed; */
+    position: 0;
+    width: 100%;
+    display:grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: 50px;
+    padding-bottom: 20px;
+}
+
+nav li {
+    float: left;
+
+}
+
+nav li a {
+    display: block;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    border: 2px solid black;
+    margin: 0 2px;
+}
+
+nav li a:hover {
+    background-color: #111;
+    color:white;
+}
